@@ -1,0 +1,5 @@
+.env
+explanations/
+bronze/*.json
+__pycache__/
+*.pyc
