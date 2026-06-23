@@ -36,3 +36,17 @@ os.makedirs("../bronze", exist_ok=True)
 # Bronze layer should contain unmodified source data
 with open(f"../bronze/{symbol}-{last_refreshed}.json", "w") as f:
     json.dump(data, f, indent=4)
+
+
+#TO BE ADDED
+
+# from pathlib import Path
+
+# ROOT_DIR = Path(__file__).parent.parent
+
+# bronze_dir = ROOT_DIR / "bronze"
+
+# bronze_dir.mkdir(exist_ok=True)
+
+# with open(bronze_dir / f"{symbol}-{last_refreshed}.json", "w") as f:
+#     json.dump(data, f, indent=4)
